@@ -1,4 +1,4 @@
-package uk.nktnet.webviewkiosk
+package com.nktnet.webview_kiosk
 
 import android.content.Intent
 import android.content.pm.ActivityInfo
@@ -19,14 +19,14 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
-import uk.nktnet.webviewkiosk.auth.BiometricPromptManager
-import uk.nktnet.webviewkiosk.config.*
-import uk.nktnet.webviewkiosk.config.option.DeviceRotationOption
-import uk.nktnet.webviewkiosk.config.option.ThemeOption
-import uk.nktnet.webviewkiosk.ui.components.webview.KeepScreenOnOption
-import uk.nktnet.webviewkiosk.ui.theme.WebviewKioskTheme
-import uk.nktnet.webviewkiosk.ui.screens.*
-import uk.nktnet.webviewkiosk.utils.authComposable
+import com.nktnet.webview_kiosk.auth.BiometricPromptManager
+import com.nktnet.webview_kiosk.config.*
+import com.nktnet.webview_kiosk.config.option.DeviceRotationOption
+import com.nktnet.webview_kiosk.config.option.ThemeOption
+import com.nktnet.webview_kiosk.ui.components.webview.KeepScreenOnOption
+import com.nktnet.webview_kiosk.ui.theme.WebviewKioskTheme
+import com.nktnet.webview_kiosk.ui.screens.*
+import com.nktnet.webview_kiosk.utils.authComposable
 import java.io.File
 
 class MainActivity : AppCompatActivity() {

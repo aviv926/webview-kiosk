@@ -1,4 +1,4 @@
-package uk.nktnet.webviewkiosk.ui.components.setting.files
+package com.nktnet.webview_kiosk.ui.components.setting.files
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,10 +14,10 @@ import androidx.compose.ui.unit.sp
 import android.widget.Toast
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
-import uk.nktnet.webviewkiosk.R
-import uk.nktnet.webviewkiosk.utils.getDisplayName
-import uk.nktnet.webviewkiosk.utils.getUUID
-import uk.nktnet.webviewkiosk.utils.humanReadableSize
+import com.nktnet.webview_kiosk.R
+import com.nktnet.webview_kiosk.utils.getDisplayName
+import com.nktnet.webview_kiosk.utils.getUUID
+import com.nktnet.webview_kiosk.utils.humanReadableSize
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*

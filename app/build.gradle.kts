@@ -107,4 +107,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     // Optional: storage for chosen client cert alias; helpful on devices that support AndroidX Security
     implementation("androidx.security:security-crypto:1.1.0")
+    implementation ('com.google.crypto.tink:tink-android:1.8.0') {
+        exclude group: 'com.google.crypto.tink', module: 'tink'
+    }
 }
